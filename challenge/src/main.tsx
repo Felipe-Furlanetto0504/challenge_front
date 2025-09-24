@@ -8,6 +8,7 @@ import Faq from './routes/Faq/index.tsx';
 import Integrantes from './routes/Integrantes/index.tsx';
 import Contato from './routes/Contato/index.tsx';
 import Sobre from './routes/Sobre/index.tsx';
+import "./global.css";
 
 const router = createBrowserRouter([
   {path: "/", element:<App/>,errorElement: <Error/>, children:[
