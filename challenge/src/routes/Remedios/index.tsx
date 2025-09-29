@@ -38,7 +38,7 @@ export default function remedios(){
                         <td>{remedios.id}</td>
                         <td>{remedios.nome}</td>
                         <td>{remedios.preco}</td>
-                        <td><Link to={`${remedios.id}`}>Ver</Link></td>
+                        <td><Link to={`/visualizar/remedios/${remedios.id}`}>Ver</Link></td>
                     </tr>
                 ))}
             </tbody>
