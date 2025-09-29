@@ -9,6 +9,8 @@ import Integrantes from './routes/Integrantes/index.tsx';
 import Contato from './routes/Contato/index.tsx';
 import Sobre from './routes/Sobre/index.tsx';
 import "./global.css";
+import Remedios from './routes/Remedios/index.tsx';
+import VisualizarRemedios from './routes/VisualizarRemedio/index.tsx';
 
 const router = createBrowserRouter([
   {path: "/", element:<App/>,errorElement: <Error/>, children:[
@@ -17,6 +19,8 @@ const router = createBrowserRouter([
     {path:"/integrantes", element:<Integrantes/>},
     {path:"/faq", element:<Faq/>},
     {path:"/sobre", element:<Sobre/>},
+    {path:"/remedios", element:<Remedios/>},
+    {path:"/visualizarremedios", element:<VisualizarRemedios/>},
   ]}
 
 ]);
