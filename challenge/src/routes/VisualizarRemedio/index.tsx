@@ -16,7 +16,7 @@ export default function VisualizarRemedios(){
   useEffect(()=>{
   
     (async()=>{
-      const response = fetch(`http://localhost:3000/remedios`);
+      const response = fetch(`http://localhost:3000/remedios/`);
       const data: Tiporemedio[] = await (await response).json();
       const achaproduto: Tiporemedio | undefined = data.find(a => a.id === Number (id));
       setRemedios(achaproduto);
@@ -29,9 +29,6 @@ export default function VisualizarRemedios(){
     <main>
         <h1>Ver Remédios</h1>
         {remedio ? <Informacoes idprops={remedio.id}nomeprops={remedio.nome} precoprops={remedio.preco} descricaoprops={remedio.descricao}/> : <p>Não tem esse remedio disponivel</p>}
-
-
-
     </main>
 
   );
