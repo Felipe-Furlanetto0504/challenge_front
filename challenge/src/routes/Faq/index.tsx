@@ -8,32 +8,32 @@ export default function Faq() {
 
   return (
     <main>
-      <h1>Faq</h1>
-      <section>
-        <div>
-          <h2>Como agendar uma consulta no HC?</h2>
+      <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">Faq</h1>
+      <section className="space-y-4 p-4 bg-[#e6f9fc]">
+        <div className="bg-[#28659b] border border-black rounded-md p-3">
+          <h2 className="font-bold">Como agendar uma consulta no HC?</h2>
           <p>Pelo SUS, com encaminhamento feito por um médico da UBS.</p>
         </div>
 
-        <div>
-          <h2>Tenho pedido médico. Posso levar ao HC?</h2>
+        <div className="bg-[#28659b] border border-black rounded-md p-3">
+          <h2 className="font-bold">Tenho pedido médico. Posso levar ao HC?</h2>
           <p>Não. Leve o pedido à UBS, que fará o encaminhamento pelo SUS.</p>
         </div>
 
-        <div>
-          <h2>Posso agendar pela internet?</h2>
-          <p>Não. Agendamento só pela rede pública (UBS).</p>
+        <div className="bg-[#28659b] border border-black rounded-md p-3">
+          <h2 className="font-bold">Posso agendar pela internet?</h2>
+          <p>Sim. Agora nesse site é possivel agendar pela internet.</p>
         </div>
 
-        <div>
-          <h2>E em caso de urgência?</h2>
+        <div className="bg-[#28659b] border border-black rounded-md p-3">
+          <h2 className="font-bold">E em caso de urgência?</h2>
           <p>
             Vá a uma UPA ou pronto-socorro. Se necessário, eles encaminham para o HC.
           </p>
         </div>
 
-        <div>
-          <h2>Como reagendar ou cancelar?</h2>
+        <div className="bg-[#28659b] border border-black rounded-md p-3">
+          <h2 className="font-bold">Como reagendar ou cancelar?</h2>
           <p>Procure a UBS onde o pedido foi feito.</p>
         </div>
       </section>
