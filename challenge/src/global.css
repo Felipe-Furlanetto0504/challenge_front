@@ -20,7 +20,8 @@
     }
 
     & footer{
-        @apply bg-[#092d42] text-white h-[20vh] w-[100vw];
+        @apply bg-[#092d42] text-white h-[20vh] w-[100vw] flex items-center justify-center
+        border border-white px-6 py-4 text-center font-bold
     }
 
     .tabela{
