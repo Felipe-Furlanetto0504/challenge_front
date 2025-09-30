@@ -23,4 +23,13 @@
         @apply bg-[#092d42] text-white h-[20vh] w-[100vw];
     }
 
+    .tabela{
+         @apply bg-[#00395f] border-2 w-[80%] mx-auto border-collapse;
+
+    & th,td{
+        @apply border-2 p-5; 
+    }
+
+    }
+
 }

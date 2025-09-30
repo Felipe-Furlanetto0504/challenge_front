@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import type { Tiporemedio } from "../../types/tipoRemedio";
 import { Link } from "react-router-dom";
 
-export default function remedios(){
+export default function Remedios(){
 
     useEffect(()=>{
         document.title = "Rémedios";
@@ -24,7 +24,7 @@ export default function remedios(){
     return(
     <main>
         <h1>Rémedios</h1>
-        <table>
+        <table className="tabela">
             <thead>
                 <tr>
                     <th>ID</th>
