@@ -9,7 +9,7 @@ export default function Faq() {
   return (
     <main>
       <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">Faq</h1>
-      <section className="space-y-4 p-4 bg-[#e6f9fc]">
+      <section className="space-y-4 p-4 bg-[#e6f9fc] ">
         <div className="bg-[#28659b] border border-black rounded-md p-3">
           <h2 className="font-bold">Como agendar uma consulta no HC?</h2>
           <p>Pelo SUS, com encaminhamento feito por um médico da UBS.</p>

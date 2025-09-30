@@ -8,7 +8,7 @@
     @apply w-[100vw] h-[100vh] flex flex-col justify-between;
 
     & header{
-        @apply bg-[#6CB6C7] text-shadow-blue-600 h-[20vh] w-[100vw];
+        @apply bg-[#6CB6C7] text-shadow-blue-600 h-[13vh] w-[100vw];
 
         & a:hover{
             @apply bg-[#15628f];
@@ -16,12 +16,12 @@
     }
 
     & main{
-        @apply bg-[#5aabbb] text-white h-[60vh] w-[100vw] overflow-auto;
+        @apply bg-[#5aabbb] text-white h-[80vh] w-[100vw] overflow-auto;
     }
 
     & footer{
-        @apply bg-[#092d42] text-white h-[20vh] w-[100vw] flex items-center justify-center
-        border border-white px-6 py-4 text-center font-bold
+        @apply bg-[#092d42] text-white h-[13vh] w-[100vw] flex items-center justify-center
+         px-6 py-4 text-center font-bold
     }
 
     .tabela{
