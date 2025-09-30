@@ -5,7 +5,7 @@ João Victor Caetano Alves da Silva Rm: 562074
 Turma: 1TDSPF
 
 Tecnologia:
-React,Vite,TypeScript,CSS,HTML,Tailwindcss,Router Dom,Api
+React,Vite,TypeScript,CSS,HTML,Tailwindcss,Router Dom,Api,json,node.js e hook-forms
 
 Imagens e ícones relacionados:
 felipe.jpg,hc.png,joao.jpg,joaocc.jpg,medico.jpg
@@ -13,4 +13,7 @@ felipe.jpg,hc.png,joao.jpg,joaocc.jpg,medico.jpg
 Link do GitHub:
 https://github.com/Felipe-Furlanetto0504/challenge_front
 
-Estruturas de pastas:
+Estruturas de pastas: chalenge_front, challenge, node_modules, 
+src, components,cabecalho, informacoes, menu, rodape,
+data,img,routes, cadastro, contato, error, faq, home, integrantes, remedios, sobre,visualizarRemedios e
+types
