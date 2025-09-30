@@ -11,6 +11,7 @@ import Sobre from './routes/Sobre/index.tsx';
 import "./global.css";
 import Remedios from './routes/Remedios/index.tsx';
 import VisualizarRemedios from './routes/VisualizarRemedio/index.tsx';
+import Cadastro from './routes/Cadastro/index.tsx';
 
 const router = createBrowserRouter([
   {path: "/", element:<App/>,errorElement: <Error/>, children:[
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     {path:"/sobre", element:<Sobre/>},
     {path:"/remedios", element:<Remedios/>},
     {path:"/visualizar/remedios/:id", element:<VisualizarRemedios/>},
+    {path:"/cadastro",element:<Cadastro/>}
   ]}
 
 ]);

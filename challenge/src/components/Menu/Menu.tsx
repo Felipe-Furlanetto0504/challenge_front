@@ -10,6 +10,7 @@ export default function Menu() {
       <Link to="/faq">Faq</Link>
       <Link to="/sobre">Sobre</Link>
       <Link to="/remedios">Rémedios</Link>
+      <Link to="/cadastro">Cadastro</Link>
     </nav>
   );
   
