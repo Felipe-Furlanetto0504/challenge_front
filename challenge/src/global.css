@@ -33,33 +33,3 @@
     }
   }
 }
-
-@screen sm {
-  .tabela {
-    @apply w-[80%];
-  }
-}
-
-@screen md {
-  .tabela {
-    @apply w-[70%];
-  }
-}
-
-@screen lg {
-  .tabela {
-    @apply w-[60%];
-  }
-}
-
-@screen xl {
-  .tabela {
-    @apply w-[50%];
-  }
-}
-
-@screen 2xl {
-  .tabela {
-    @apply w-[40%];
-  }
-}
