@@ -8,7 +8,7 @@
     @apply w-[100vw] h-[100vh] flex flex-col justify-between;
 
     & header{
-        @apply bg-[#6CB6C7] text-shadow-blue-600 h-[13vh] w-[100vw];
+        @apply bg-[#6CB6C7] h-[13vh] w-[100vw];
 
         & a:hover{
             @apply bg-[#15628f];
