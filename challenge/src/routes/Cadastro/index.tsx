@@ -30,7 +30,7 @@ export default function Cadastro() {
   };
 
   return (
-    <section className="bg-[#e6f9fc] h-120 w-340">
+    <section className="bg-[#e6f9fc] h-127 w-340">
     <div className="max-w-md mx-auto mt-12 p-6 border border-gray-300 rounded-xl shadow-md bg-white">
       <h1 className="text-2xl font-bold text-center mb-6">
         Cadastro de Paciente
@@ -39,6 +39,7 @@ export default function Cadastro() {
         <label className="mt-4 font-medium">Email:</label>
         <input
           type="email"
+          placeholder="SeuEmail@.com"
           {...register("email", { required: "O email é obrigatório" })}
           className="mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
@@ -51,6 +52,7 @@ export default function Cadastro() {
         <label className="mt-4 font-medium">Senha:</label>
         <input
           type="password"
+          placeholder="Crie uma senha"
           {...register("senha", {
             required: "A senha é obrigatória",
             minLength: {

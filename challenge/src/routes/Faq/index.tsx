@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 export default function Faq() {
-
   useEffect(() => {
     document.title = "Faq";
   }, []);
@@ -28,7 +27,8 @@ export default function Faq() {
         <div className="bg-[#28659b] border border-black rounded-md p-3">
           <h2 className="font-bold">E em caso de urgência?</h2>
           <p>
-            Vá a uma UPA ou pronto-socorro. Se necessário, eles encaminham para o HC.
+            Vá a uma UPA ou pronto-socorro. Se necessário, eles encaminham para
+            o HC.
           </p>
         </div>
 
@@ -37,8 +37,6 @@ export default function Faq() {
           <p>Procure a UBS onde o pedido foi feito.</p>
         </div>
       </section>
-
     </main>
   );
-
 }

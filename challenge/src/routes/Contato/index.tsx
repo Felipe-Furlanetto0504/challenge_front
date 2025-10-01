@@ -11,7 +11,7 @@ export default function Contato() {
 
       <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">Contato</h1>
 
-     <section className="p-4 bg-[#e6f9fc] space-y-4 h-[64vh]">
+     <section className="p-4 bg-[#e6f9fc] space-y-4 h-[63.7vh]">
   
   <div>
     <h2 className="font-semibold italic text-gray-800">Endereço:</h2>

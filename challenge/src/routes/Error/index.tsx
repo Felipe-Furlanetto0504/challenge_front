@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 export default function Error() {
-
   useEffect(() => {
     document.title = " Page Not Found - Erro 404";
   }, []);
@@ -11,5 +10,4 @@ export default function Error() {
       <h1>Not Found - Erro 404</h1>
     </main>
   );
-  
 }

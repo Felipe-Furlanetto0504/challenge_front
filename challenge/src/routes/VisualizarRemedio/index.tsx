@@ -27,7 +27,9 @@ export default function VisualizarRemedios() {
 
   return (
     <main>
-      <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">Ver Remédios</h1>
+      <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">
+        Ver Remédios
+      </h1>
       {remedio ? (
         <Informacoes
           idprops={remedio.id}
