@@ -23,7 +23,8 @@ export default function Remedios(){
 
     return(
     <main>
-        <h1>Rémedios</h1>
+        <h1 className="bg-[#e6f9fc] text-3xl space-y-4 p-4 text-cyan-700">Rémedios</h1>
+        <section className="bg-[#e6f9fc] ">
         <table className="tabela">
             <thead>
                 <tr>
@@ -48,6 +49,7 @@ export default function Remedios(){
                 </tr>
             </tfoot>
         </table>
+        </section>
     </main>
 );
 

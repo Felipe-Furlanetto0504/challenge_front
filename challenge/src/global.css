@@ -25,7 +25,7 @@
     }
 
     .tabela{
-         @apply bg-[#00395f] border-2 w-[80%] mx-auto border-collapse;
+         @apply bg-[#226897] border-2 w-[50%] mx-auto border-collapse;
 
     & th,td{
         @apply border-2 p-5; 

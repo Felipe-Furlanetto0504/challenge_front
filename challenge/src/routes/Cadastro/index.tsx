@@ -30,6 +30,7 @@ export default function Cadastro() {
   };
 
   return (
+    <section className="bg-[#e6f9fc] h-120 w-340">
     <div className="max-w-md mx-auto mt-12 p-6 border border-gray-300 rounded-xl shadow-md bg-white">
       <h1 className="text-2xl font-bold text-center mb-6">
         Cadastro de Paciente
@@ -39,7 +40,7 @@ export default function Cadastro() {
         <input
           type="email"
           {...register("email", { required: "O email é obrigatório" })}
-          className="mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+          className="mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
         {errors.email && (
           <span className="text-red-600 text-sm mt-1">
@@ -57,7 +58,7 @@ export default function Cadastro() {
               message: "A senha deve ter no mínimo 6 caracteres",
             },
           })}
-          className="mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+          className="mt-2 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
         {errors.senha && (
           <span className="text-red-600 text-sm mt-1">
@@ -67,11 +68,12 @@ export default function Cadastro() {
 
         <button
           type="submit"
-          className="mt-6 p-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors"
+          className="mt-6 p-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 transition-colors"
         >
           Cadastrar
         </button>
       </form>
     </div>
+    </section>
   );
 }
