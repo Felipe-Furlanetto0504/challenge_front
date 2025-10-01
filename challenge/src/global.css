@@ -21,15 +21,45 @@
 
   & footer {
     @apply bg-[#092d42] text-white h-[13vh] w-[100vw] flex items-center justify-center
-         px-6 py-4 text-center font-bold;
+           px-6 py-4 text-center font-bold;
   }
 
   .tabela {
-    @apply bg-[#226897] border-2 w-[50%] mx-auto border-collapse;
+    @apply bg-[#226897] border-2 w-[90%] mx-auto border-collapse; 
 
     & th,
     td {
-      @apply border-2 p-5;
+      @apply border-2 p-3;
     }
+  }
+}
+
+@screen sm {
+  .tabela {
+    @apply w-[80%];
+  }
+}
+
+@screen md {
+  .tabela {
+    @apply w-[70%];
+  }
+}
+
+@screen lg {
+  .tabela {
+    @apply w-[60%];
+  }
+}
+
+@screen xl {
+  .tabela {
+    @apply w-[50%];
+  }
+}
+
+@screen 2xl {
+  .tabela {
+    @apply w-[40%];
   }
 }

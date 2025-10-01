@@ -13,6 +13,9 @@ felipe.jpg,hc.png,joao.jpg,joaocc.jpg,medico.jpg
 Link do GitHub:
 https://github.com/Felipe-Furlanetto0504/challenge_front
 
+Link do Vídeo do YouTube:
+https://www.youtube.com/watch?v=63o8GDBTfgg
+
 Estruturas de pastas: chalenge_front, challenge, node_modules, 
 src, components,cabecalho, informacoes, menu, rodape,
 data,img,routes, cadastro, contato, error, faq, home, integrantes, remedios, sobre,visualizarRemedios e
