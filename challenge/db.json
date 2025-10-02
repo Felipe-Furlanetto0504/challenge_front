@@ -61,16 +61,5 @@
       "descricao": "para asma ou DPOC"
     }
   ],
-  "pacientes": [
-    {
-      "id": "63ff",
-      "email": "jo@email.com",
-      "senha": "123456"
-    },
-    {
-      "id": "7270",
-      "email": "jo@email.com",
-      "senha": "123456"
-    }
-  ]
+  "pacientes": []
 }

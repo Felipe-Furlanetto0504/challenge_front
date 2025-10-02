@@ -21,6 +21,7 @@ export default function Integrantes() {
             Nome: Felipe Furlanetto
           </p>
           <p className="text-gray-600">RM: 562766</p>
+          <p className="text-gray-600">Turma: 1TDSPF</p>
           <div className="mt-2 flex flex-col space-y-1">
             <a
               href="https://github.com/Felipe-Furlanetto0504"
@@ -47,6 +48,7 @@ export default function Integrantes() {
             Nome: João Victor Bueno Castelini da Silva
           </p>
           <p className="text-gray-600">RM: 564115</p>
+          <p className="text-gray-600">Turma: 1TDSPF</p>
           <div className="mt-2 flex flex-col space-y-1">
             <a
               href="https://github.com/Buenozw"
@@ -73,6 +75,7 @@ export default function Integrantes() {
             Nome: João Victor Caetano Alves da Silva
           </p>
           <p className="text-gray-600">RM: 562074</p>
+          <p className="text-gray-600">Turma: 1TDSPF</p>
           <div className="mt-2 flex flex-col space-y-1">
             <a
               href="https://github.com/joaocaetano1310"
